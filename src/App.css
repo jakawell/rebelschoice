@@ -28,6 +28,30 @@
   color: #61dafb;
 }
 
+.App-btn {
+  background: #61dafb;
+  border-radius: 4px;
+  border: 2px solid;
+  color: #2f384b;
+  width: 248px;
+  margin: 0 1em;
+  padding: 3em 3em;
+}
+
+.App-mental {
+  background: #61dafb;
+  color: #2f384b;
+}
+
+.App-physical {
+  background: #3cff6d;
+  color: #2f384b;
+}
+
+.App-results {
+  font-size: calc(4px + 1vmin);
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
