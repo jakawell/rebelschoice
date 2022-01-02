@@ -44,7 +44,7 @@ class Counter extends React.Component {
           <i>Mental: {this.state.mental}</i> <br />
           <i>Physical: {this.state.physical}</i>
         </p>
-        <a className="App-link" href="#" onClick={() => this.clearData()}>Reset</a>
+        <a className="App-link" href="/#" onClick={() => this.clearData()}>Reset</a>
       </div>
     )
   }
